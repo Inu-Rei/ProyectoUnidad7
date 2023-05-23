@@ -7,29 +7,49 @@
     align-items: center;
     justify-content: center;
     background-image: url(../imagenes/manga.png);
+}
 
+h1:hover {
+    box-shadow: 0 5px 15px rgba(235, 6, 6, 0.5);
+    transform: translateY(-25px);
 }
 
 .contenedor-caracteristicas {
 
     background-image: url(../imagenes/fondo\ caracteristicas.png);
     min-height: 600px;
-    width: 70%;
-    height: 700px;
-    margin: 10px 10px 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 50%;
+    height: none;
     box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
     transition: .5s;
-    margin: 20px 30px;
-    text-transform: uppercase;
+    margin: 50px 30px;
     color: black;
+    overflow: auto;
+    
+}
+.imagen{
+    
+    float: left;
+}
+.caracteristicas{
+    
+    float: center;
+
+}
+
+@media screen and (max-width: 740px) {
+    
+    .imagen{
+        width: 70%;
+    }
+    .caracteristicas{
+       width: 100%;
+    }
 }
 
 .contenedor-caracteristicas:hover {
-    box-shadow: 0 5px 15px rgba(3, 89, 92, .5);
-    transform: translateY(-15px);
+    box-shadow: 0 5px 15px rgba(235, 6, 6, 0.5);
+    transform: translateY(-25px);
 }
 
 .imagen {
@@ -42,7 +62,11 @@
     background-color: #fff;
     box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
     transition: .5s;
-    margin: 20px 30px;
+    margin: 40px 30px;
+}
+.imagen:hover {
+    box-shadow: 0 5px 15px rgba(226, 186, 6, 0.5);
+    transform: translateY(-25px);
 }
 
 .contenedor-imagen {

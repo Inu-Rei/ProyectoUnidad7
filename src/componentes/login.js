@@ -9,7 +9,7 @@ function Login() {
   const navigate = useNavigate();
   const handleSubmit = (e) => {
     e.preventDefault();
-   
+  
     if (username === 'usuario' && password === 'clave') {
       navigate('/Listado');
     } else {
@@ -18,32 +18,22 @@ function Login() {
   };
 
   return (
-    <div className="App">
-     
+    <div className="container">
+      <section class="form-resgister">
         <form onSubmit={handleSubmit} >
-        <section class="form-resgister">
-          <label>
-            Usuario:
-            <input className='controls'
-              type="text"
-              value={username}
-              onChange={(e) => setUsername(e.target.value)}
-            />
-          </label>
-          <br />
-          <label>
-            Contraseña:
-            <input className='controls'
-              type="password"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-            />
-          </label>
-          <br />
-          <button type="submit">Iniciar sesión</button>
-          </section>
+          <div className='form_box' >
+            <input className='form_input' id='textUser' placeholder=' ' type="text" value={username} onChange={(e) => setUsername(e.target.value)} />
+            <label for="" className='form_label' >USUARIO</label>
+          </div>
+          <div className='form_box' >
+            <input className='form_input' id='textPass' placeholder=' ' type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
+            <label for="" className='form_label' >PASSWORD</label>
+          </div>
+                    <center><button type="submit">
+                    Iniciar Sesion
+                    </button></center>
         </form>
-      
+      </section>
     </div>
   );
 }
