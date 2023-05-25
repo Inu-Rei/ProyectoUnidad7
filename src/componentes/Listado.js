@@ -12,7 +12,7 @@ function Listado () {
         <h2>Caballeros Dorados De Las 12 Casas</h2>
   
        <Item
-       nombre="Aries"
+      nombre="Aries"
       sexo="masculino"
       fechaDeNacimiento="27 de marzo"
       edad="20"
@@ -36,6 +36,7 @@ function Listado () {
       imagen="Aries"
       imagen2="cajaaries"
       imagen3="Mu"
+      imagen4="armaduraMu"
       />
 
 <Item
@@ -63,6 +64,7 @@ function Listado () {
       imagen="aldebaran"
       imagen2="cajaaries"
       imagen3="Tauro"
+      imagen4="armaduraMu"
       />
 
 <Item
@@ -90,6 +92,7 @@ function Listado () {
       imagen="saga"
       imagen2="cajaaries"
       imagen3="saga maligno"
+      imagen4="armaduraMu"
       />
 
 <Item
@@ -117,6 +120,7 @@ function Listado () {
       imagen="cancer"
       imagen2="cajaaries"
       imagen3="Cancer1"
+      imagen4="armaduraMu"
       />
 
 <Item
@@ -144,6 +148,7 @@ function Listado () {
       imagen="leo"
       imagen2="cajaaries"
       imagen3="Leo1"
+      imagen4="armaduraMu"
       />
 
 <Item
@@ -171,6 +176,7 @@ function Listado () {
       imagen="virgo"
       imagen2="cajaaries"
       imagen3="Virgo1"
+      imagen4="armaduraMu"
       />
 
 <Item
@@ -198,6 +204,7 @@ function Listado () {
       imagen="libra"
       imagen2="cajaaries"
       imagen3="Libra1"
+      imagen4="armaduraMu"
       />
 
 <Item
@@ -225,6 +232,7 @@ function Listado () {
       imagen="escorpion"
       imagen2="cajaaries"
       imagen3="Scorpion"
+      imagen4="armaduraMu"
       />
 
 <Item
@@ -252,6 +260,7 @@ function Listado () {
       imagen="sagitario"
       imagen2="cajaaries"
       imagen3="Sagitario1"
+      imagen4="armaduraMu"
       />
 
 <Item
@@ -279,6 +288,7 @@ function Listado () {
       imagen="capricornio"
       imagen2="cajaaries"
       imagen3="Capricornio1"
+      imagen4="armaduraMu"
       />
 
 <Item
@@ -306,6 +316,7 @@ function Listado () {
       imagen="acuario"
       imagen2="cajaaries"
       imagen3="Acuario1"
+      imagen4="armaduraMu"
       />
 
 <Item
@@ -333,6 +344,8 @@ function Listado () {
       imagen="picis"
       imagen2="cajaaries"
       imagen3="Picis1"
+      imagen4="armaduraMu"
+      
       />
 
        

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 function Item (props){
     return(
         
-        <Link to={"/personaje/" + props.nombre  + "/" + props.edad + "/" + props.procedencia + "/" + props.imagen3 + "/" + props.sexo + "/" + props.fechaDeNacimiento + "/" + props.origen + "/" + props.primeraAparicion + "/" + props.funsion + "/" + props.manga + "/" + props.anime + "/" + props.estatura + "/" + props.peso + "/" + props.ocupacion + "/" + props.familia + "/" + props.kiki + "/" + props.lugarDeEntrenamiento + "/" + props.habilidades + "/" + props.constelacion + "/" + props.tecnicas}> 
+        <Link to={"/personaje/" + props.nombre  + "/" + props.edad + "/" + props.procedencia + "/" + props.imagen3 + "/" + props.sexo + "/" + props.fechaDeNacimiento + "/" + props.origen + "/" + props.primeraAparicion + "/" + props.funsion + "/" + props.manga + "/" + props.anime + "/" + props.estatura + "/" + props.peso + "/" + props.ocupacion + "/" + props.familia + "/" + props.kiki + "/" + props.lugarDeEntrenamiento + "/" + props.habilidades + "/" + props.constelacion + "/" + props.tecnicas + "/" + props.imagen4}> 
   <div className="contenedor-testimonio">
         <article >
         <img 
@@ -16,11 +16,9 @@ function Item (props){
         alt={"foto de" + props.nombre}/>      
                 
             </article>
-        
-
-        
-    </div >
-    </Link>
+            </div >
+        </Link>
+   
 );
 } 
 export default Item;

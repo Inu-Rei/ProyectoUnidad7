@@ -10,7 +10,7 @@ function App () {
     <Routes>
       <Route path='/' element={<Login/>} />
       <Route path='/Listado' element={<Listado/>} />
-      <Route path='/personaje/:nombre/:edad/:procedencia/:imagen3/:sexo/:fechaDeNacimiento/:origen/:primeraAparicion/:funsion/:manga/:anime/:estatura/:peso/:ocupacion/:familia/:kiki/:lugarDeEntrenamiento/:habilidades/:constelacion/:tecnicas' element={<Detail/>} />
+      <Route path='/personaje/:nombre/:edad/:procedencia/:imagen3/:sexo/:fechaDeNacimiento/:origen/:primeraAparicion/:funsion/:manga/:anime/:estatura/:peso/:ocupacion/:familia/:kiki/:lugarDeEntrenamiento/:habilidades/:constelacion/:tecnicas/:imagen4' element={<Detail/>} />
     </Routes>
   );
 }

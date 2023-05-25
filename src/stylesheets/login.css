@@ -16,7 +16,7 @@
     padding: .5rem 2rem;
     border-radius: 5px;
     border: 0;
-    outline: solid 2px blue;
+    outline: solid 2px black;
     
     
 }
@@ -28,7 +28,7 @@
     left: 2rem;
     background: white;
     padding: 0 .5rem;
-    color: blue;
+    color: black;
     font-weight: bold;
     font-size: 100%;
 }
@@ -46,7 +46,7 @@
     transform: translateY(-1rem);
     background: white;
     font-size: 13px;
-    color: blue;
+    color: black;
 }
 
 .form_input:not(:placeholder-shown)+.form_label{
@@ -65,7 +65,7 @@
     border-radius: 40px;
     font-family: Arial, Helvetica, sans-serif
     color white;
-    box-shadow: 7px 13px 37px red;
+    box-shadow: 7px 13px 37px goldenrod;
 }
 
 .form-resgister:hover{

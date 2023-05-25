@@ -92,3 +92,45 @@ h1:hover {
     margin-top: 15px;
     padding-bottom: 30px;
 }
+
+nav{
+    background-image: url(../imagenes/hades.gif);
+}
+
+footer{
+    background-image: url(../imagenes/gif.gif);
+}
+
+.imagen-footer{
+    width: 10%;
+    height: 10%;
+    margin-top: -2.5%;
+    
+}
+
+.creador{
+    font-weight: bold;
+    margin-top: -5%;
+    margin: 0.5%;
+    color: #fff;
+    
+}
+
+.buttonMenu{
+margin-bottom: 1%;
+margin-right: 1%;
+}
+
+.siguenos{
+    margin-left: 1000px;
+    margin-top: -150px;
+    color: white;
+    
+}
+
+.canal{
+    margin-left: 1000px;
+    margin-top: -150px;
+    color: white;
+    
+}
